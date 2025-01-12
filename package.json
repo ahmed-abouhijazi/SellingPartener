@@ -1,0 +1,25 @@
+{
+  "name": "my-node-vue-app",
+  "homepage": "https://ahmed-abouhijazi.github.io/SellingPartener/",
+  "version": "1.0.0",
+  "description": "A Vue.js application to manage Amazon Seller Central orders.",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "gh-pages": "^6.3.0"
+  }
+}
