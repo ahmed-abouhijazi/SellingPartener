@@ -9,8 +9,8 @@ export async function getAccessToken() {
     const url = 'https://api.amazon.com/auth/o2/token';
     const data = new URLSearchParams({
         grant_type: 'refresh_token',
-        client_id,
-        client_secret,
+        client_id:'amzn1.application-oa2-client.e5d13cdca3744bfe93b49885bdff85b2',
+        client_secret:'amzn1.oa2-cs.v1.6009e15710548ab40c615da192ed7c2a0fdeba7088ecaafec25333caa78514b5',
         refresh_token
     });
 
