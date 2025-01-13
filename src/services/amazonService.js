@@ -1,14 +1,14 @@
 import axios from 'axios';
 import { getAccessToken } from '../api/auth';
 
-const API_BASE_URL = 'https://sellingpartnerapi-eu.amazon.com';
+const API_BASE_URL = 'https://cors-anywhere.herokuapp.com/https://sellingpartnerapi-eu.amazon.com';
 
 export const fetchOrders = async () => {
   const token = await getAccessToken();
   try {
     const response = await axios.get(`${API_BASE_URL}/orders/v0/orders`, {
       headers: {
-        'x-amz-access-token': token,
+        'x-amz-access-token': token
       },
     });
     return response.data.orders;

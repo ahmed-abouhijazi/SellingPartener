@@ -10,8 +10,8 @@ export async function getAccessToken() {
     const data = new URLSearchParams({
         grant_type: 'refresh_token',
         client_id:'amzn1.application-oa2-client.e5d13cdca3744bfe93b49885bdff85b2',
-        client_secret:'amzn1.oa2-cs.v1.6009e15710548ab40c615da192ed7c2a0fdeba7088ecaafec25333caa78514b5',
-        refresh_token:'Atzr|IwEBIBkf-8K5x1f617uW8ow-4f9tRXcAM__iuRUXADI6qVbtIJ3SjzoJBWuNenfjCAaWucQ_dZiyW8rZORW4dkVkA-jFvRckCZDC-ynXcrAKm7xWU2qrOIYWHnC-aUwV12srxoCnQqYHLlBUBRzqWsE4JEy1zU-cO_dEgWCMqt2w3LwbBVl6-4LonR7WCCxAPZAXTcgAhFfS7Fk7PiUYF7fPojFCIJ3dco2z1AQs61Y11dFbOTckw3n_DPd3PCFEExgwdyFeh314ox3LlD7jpvJb_zHiW1h58G9TItLUdvoH60v2UKhekQiQ6ITTswRqZy5fG33KEpq3aRxRBStpVrxlIL0yLLGh5Fg6t5XJKLi-krdEdQ'
+        client_secret:'amzn1.oa2-cs.v1.c41a7bb734c4c73bd758ebd14476f489f82f51d37df48d9e901cfd552f90505c',
+        refresh_token:'Atzr|IwEBIL-9QlGtBwfkiQ_cS47iSHpDPMrFvZZsgjG_AZG-tD8ef7CCeCSAlqixGsE8gJQbvDYB6k4ExleLXiWMGXstg4XqXDgZMeNiJrcQJgyN_1Elifud9FJf-yXoYa7RhougDr0dwXt-WZyerfWq4bP2yK6rpbmUHRTnhfmNFOKx2UQlNJGkCxp1BxTzmmH26mLD-BKrt2GgLuKoRYh6ERii0zEE5Jxo2MN-sHmN7EMNDlNnQCb-s16dFOHcdXorzsPkgj9Maxl6Cn3HFaAFbClrYhXwzEuvzBwnf8KzukCNkOvGRIw69cG2vmIhiZ1rh6cXBJldSQkzHnJu--hE5IP3kijwOhEzxv6nh0y8tdS42grOaA'
     });
 
     try {
