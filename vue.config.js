@@ -1,4 +1,11 @@
 module.exports = {
+    configureWebpack: {
+        resolve: {
+          alias: {
+            'primevue': require('path').resolve(__dirname, 'node_modules/primevue'),
+          },
+        },
+      },
     devServer: {
         proxy: {
           '/orders': {
@@ -11,6 +18,6 @@ module.exports = {
         },
       },
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/SellingPartener/'
+    ? '/'
     : '/'
 };
